@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Player</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="musics">
+		<h1>1) Ece seckin Olsun</h1>
+		<h1>2) Gece Golgenin Rahtina Bak</h1>
+		<h1>3) Mustafa Ceceli Canparcam</h1>
+		<h1>4) Mustafa Ceceli kiymetlim</h1>
+		<h1>5) Mustafa Ceceli sultanim</h1>
+		<h1>6) Mustafa Ceceli Gul rengi</h1>
+	</div>
+
+	<div class="main">
+		<button onclick="left(this)" class="left"> <<< </button>
+		<button onclick="play(this)" class="play">play</button>
+		<button onclick="pause(this)" class="pause">pause</button>
+		<button onclick="right(this)" class="right"> >>> </button>
+		<audio controls>
+			<source src="mp3/1.mp3" type="audio/mpeg">
+		</audio>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

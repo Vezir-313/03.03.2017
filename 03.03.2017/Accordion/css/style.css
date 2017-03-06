@@ -1,0 +1,46 @@
+.wrapper{
+	margin-left: 200px;
+	margin-top: 100px;
+}
+.accor{
+	width: 600px;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 5px;
+	border: 1px solid darkgray;
+	overflow: hidden;
+}
+.ok{
+	line-height: 40px;
+	height: 40px;
+	background-color: #EEEEEE;
+}
+.ok2{
+	line-height: 40px;
+	height: 40px;
+	color: white;
+	background-color: #007FFF;
+}
+.yazi{
+	width: 100%;
+	height: calc(100% - 40px);
+	background-color: white;
+}
+a{
+	text-decoration: none;
+	color: initial;
+}
+i{
+	margin-left: 30px;
+	display: inline-block;
+}
+h3{
+	margin: 0 0 0 5px;
+	display: inline-block;
+}
+p{
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 85%;
+	font-size: 18px;
+}
